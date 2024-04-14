@@ -1,0 +1,80 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.palette {
+  display: flex;
+  /* 자식들이 균등하게 자리 차지하는 CSS */
+  flex: 1 1 auto;
+  /* width: 100%;
+  height: 25%; */
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.color1 {
+  background-color: #55efc4;
+}
+.color2 {
+  background-color: #81ecec;
+}
+.color3 {
+  background-color: #74b9ff;
+}
+.color4 {
+  background-color: #a29bfe;
+}
+.color5 {
+  background-color: #dfe6e9;
+}
+.color6 {
+  background-color: #00b894;
+}
+.color7 {
+  background-color: #00cec9;
+}
+.color8 {
+  background-color: #0984e3;
+}
+.color9 {
+  background-color: #6c5ce7;
+}
+.color10 {
+  background-color: #b2bec3;
+}
+.color11 {
+  background-color: #ffeaa7;
+}
+.color12 {
+  background-color: #fab1a0;
+}
+.color13 {
+  background-color: #ff7675;
+}
+.color14 {
+  background-color: #fd79a8;
+}
+.color15 {
+  background-color: #636e72;
+}
+.color16 {
+  background-color: #fdcb6e;
+}
+.color17 {
+  background-color: #e17055;
+}
+.color18 {
+  background-color: #d63031;
+}
+.color19 {
+  background-color: #e84393;
+}
+.color20 {
+  background-color: #2d3436;
+}

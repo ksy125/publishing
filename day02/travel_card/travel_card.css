@@ -1,0 +1,27 @@
+/* .container {
+    display: flex;
+} */
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 10px 20px 10px;
+}
+
+.container {
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 30px;
+  margin-left: 5px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.font {
+  font-weight: bold;
+  padding: 10px;
+}

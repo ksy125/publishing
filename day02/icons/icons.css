@@ -1,0 +1,29 @@
+/* .line {
+  border: 1px solid gray;
+  border-radius: 20px;
+  width: fit-content;
+  margin-left: 30px;
+} */
+
+.container {
+  display: flex;
+  text-align: center;
+  /* gap: 5px; */
+  padding: 10px 0 10px 0;
+}
+
+.box {
+  width: 100px;
+  height: 90px;
+  padding: 5px;
+}
+
+.box > div {
+  font-weight: bold;
+}
+
+.fa-solid {
+  font-size: 33px;
+  padding: 10px;
+  color: rgb(76, 127, 192);
+}
