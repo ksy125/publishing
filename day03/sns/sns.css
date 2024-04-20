@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 350px;
+    height: 600px;
+    padding: 50px 25px;
+    border-radius: 30px;
+    gap: 30px;
+    
+    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120%;
+}
+
+.image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    /* 사진 위치 css */
+    /* object-position: 90% center; */
+}
+
+.introduce {
+    font-family: 'yg-jalnan';
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.btn {
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    font-family: 'yg-jalnan';
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #EADCF0;
+    font-size: 17px;
+    /* background: none; */
+    /* opacity: 10%; */
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    gap: 20px;
+
+    list-style: none;
+    margin: 10px;
+    color: white;
+}
+
+.icons > li:hover {
+    transition: all 0.5s ease;
+    /* opacity: 10%; */
+}
+
+.facebook:hover {
+    color: skyblue;
+}
+
+.instagram:hover {
+    color: pink;
+}
+
+.spotify:hover {
+    color:orange
+}
