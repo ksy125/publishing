@@ -1,0 +1,55 @@
+.scroll-container {
+    width: 300px;
+    height: 110px;
+    gap: 10px;
+    padding: 5px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    cursor: grab;
+
+    background-color: #282828;
+    color: white;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.item-box {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 70px;
+    height: 100px;
+}
+
+.image {
+    width: 100%;
+}
+
+.image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.button {
+    border-radius: 12px;
+    border: 1px solid white;
+    padding: 8px 6px;
+
+    /* 글이 넓이에 제약되지 않는 CSS */
+    white-space: nowrap;
+}
