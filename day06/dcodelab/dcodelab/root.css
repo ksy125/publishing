@@ -1,0 +1,45 @@
+:root {
+  /* color */
+  --primary--color: #1d4d4f;
+  --secondary--color: #285f43;
+
+  /* font */
+  --font-size-small: 12px;
+  --font-size-nomal: 16px;
+  --font-size-large: 20px;
+}
+
+.box > .button {
+  background-color: var(--primary--color);
+  font-size: var(--font-size-small);
+}
+
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* font */
+  --font-primary: "yg-jalnan";
+
+  --font-mega: 120px;
+  --font-large: 24px;
+  --font-midium: 16px;
+
+  /* width */
+  --max-width: 1200px;
+
+  /* border */
+  /* --border-button: 1px solid rgba(128, 135, 153, 0.8);
+  --border-button-radius: 100px; */
+
+  /* color */
+  /* --color-grey: rgba(128, 135, 153, 0.8); */
+  --color-white: #fff;
+  --color-grey: #555;
+  --color-lightgrey: #777777;
+}
