@@ -1,0 +1,104 @@
+/* Image Banner CSS */
+.banner {
+    width: 100vw;
+    /* height: calc(100vh - 5rem); */
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.image > img {
+    width: 100vw;
+    height: 80%;
+    object-fit: cover;
+}
+
+/* Profile CSS */
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    font-size: var(--font--size--medium);
+    font-weight: bold;
+
+    height: fit-content;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 30px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.profile--box, .contents--box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+
+    padding: 20px;
+    border: 1px solid var(--bright-gray);
+    border-radius: var(--borderRadius--small);
+}
+
+@media screen and (max-width: 678px) {
+    .profile {
+        flex-direction: column;
+    }
+}
+
+.user {
+    width: fit-content;
+    height: fit-content;
+    margin: var(--margin-no-left);
+    border-radius: var(--borderRadius--small);
+
+    /* border: 1px solid black; */
+    color: skyblue;
+    font-size: 120px;
+}
+
+.info {
+    width: max-content;
+    height: fit-content;
+    margin: var(--margin-no-left);
+    padding: 10px 20px;
+    line-height: 28px;
+}
+
+/* Contents CSS */
+.contents--box {
+    width: 100%;
+}
+
+.contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill, .work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: var(--font--size--medium);
+    gap: 10px;
+    color: var(--light-gray);
+}
+
+.contents > div > i {
+    font-size: var(--font--size--mega);
+    color: skyblue;
+}
